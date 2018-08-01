@@ -1,4 +1,6 @@
+<center>
 <h1>Voila la liste de mes films OKLM</h1>
 <p><% @movies.each do |movie| %>
     <p><%= movie.title %>, réalisé par <%= movie.director %>, sorti en <%= movie.release_year %></p>
 <% end %></p>
+</center>
